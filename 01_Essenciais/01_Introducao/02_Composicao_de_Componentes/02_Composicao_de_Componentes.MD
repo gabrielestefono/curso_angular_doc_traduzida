@@ -1,4 +1,4 @@
-### Composição com Componentes
+# Composição com Componentes
 Componentes são os blocos de construção para criar aplicações em Angular
 
 Componentes te dão estrutura pra organizar seu projeto de um jeito fácil de entender, em partes com responsabilidades claras, o que mantém o código manutenível e escalável.
@@ -9,7 +9,7 @@ Aqui um exemplo de como uma aplica;'ao todolist pode ser dividida em uma árvore
 
 Nesse guia, vamos dar uma olhada em como criar e usar componentes em Angular
 
-#### Definindo um componente
+## Definindo um componente
 
 Todo componente tem as seguintes propriedades essenciais:
 1. Um decorator @Component que contém alguma configuração.
@@ -64,7 +64,7 @@ export class TodoListItem {
 }
 ```
 
-#### Separando HTML e CSS em arquivos separados
+## Separando HTML e CSS em arquivos separados
 Para times que preferem gerenciar seus HTML e CSS em arquivos separados, Angular te dá duas propriedades adicionais.
 
 Usando o ToDoListItem do componente anterior, uma alternativa é algo como:
@@ -93,7 +93,7 @@ li {
 }
 ```
 
-#### Usando um componente:
+## Usando um componente:
 
 Uma vantagem de arquitetura de componentes é que a sua aplicação fica modular. Em outras palavras, componentes podem ser usados em outros componentes.
 
